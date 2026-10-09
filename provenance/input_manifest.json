@@ -1,0 +1,52 @@
+{
+  "method": "Executed the unmodified AST definitions tokenize_str and subsample_mutants from author v2 source; max_len=1024",
+  "author_preprocessing_sha256": "87487e26d4bd5cb69a50824858b9170bca346b58bfbf94ca5e43a0acf1939967",
+  "context": 1024,
+  "files": {
+    "work/v2_generated_input/test_0": {
+      "sha256": "fe9b6f0628359ab29e7f24154f3c2ffb8152800d437b9959c3cbbc087291052a",
+      "raw_source": "artifact_v2/data/base_set_suite_outliers_cp/test/test_0",
+      "raw_sha256": "09ae7ee4709e2b5cf670253fce3813d49e366a891c793c72af790c1583e6fadf",
+      "suites": 200,
+      "pairs": 4904
+    },
+    "work/v2_generated_input/test_1": {
+      "sha256": "eb5cf55c20c3032f805c5480519798acbea1a7fa6c50a91dd4863ad7da6e3d52",
+      "raw_source": "artifact_v2/data/base_set_suite_outliers_cp/test/test_1",
+      "raw_sha256": "227cb3fbf4f4051ea4dd4f5b5b1db73e77baefd425c4454b965848402c069758",
+      "suites": 200,
+      "pairs": 5897
+    },
+    "work/v2_generated_input/test_2": {
+      "sha256": "d35a8d7c25e934612c1e07b24a8b64e9a512bafb278e514b77db73c2be8ad565",
+      "raw_source": "artifact_v2/data/base_set_suite_outliers_cp/test/test_2",
+      "raw_sha256": "ce985b6e888555c054c4c8ba1e31635dfc71dbe35c3066c68e14e4044d0c0f46",
+      "suites": 200,
+      "pairs": 15690
+    },
+    "work/v2_generated_input/test_3": {
+      "sha256": "ec2070a479f48cc0f6eba3da819b99af364c2b72ff2cbcf485d7ce1712ca7bb2",
+      "raw_source": "artifact_v2/data/base_set_suite_outliers_cp/test/test_3",
+      "raw_sha256": "ad62d75ab937ffbeac6e3c74bf75604528ad89837e9b513636301f0d4b6f52e8",
+      "suites": 200,
+      "pairs": 7221
+    },
+    "work/v2_generated_input/test_4": {
+      "sha256": "93db3b6584e4d6546b1b3f9c8966d0a3bf4e64c4d98f88d1eacf812c472248e9",
+      "raw_source": "artifact_v2/data/base_set_suite_outliers_cp/test/test_4",
+      "raw_sha256": "3c914afff730a62980483501f0a37b352be907c7d8476dbb3f98cb6b51b31523",
+      "suites": 200,
+      "pairs": 7683
+    },
+    "work/v2_generated_input/test_5": {
+      "sha256": "aca3c4cf5fafd79f7913eab803c7f0d05890b670c478b2289d39c6017cddeb6c",
+      "raw_source": "artifact_v2/data/base_set_suite_outliers_cp/test/test_5",
+      "raw_sha256": "d68efbc78cf989c06c8fe33ab9467756c68f6ca8453b90a94acf6e79caf42749",
+      "suites": 40,
+      "pairs": 1292
+    }
+  },
+  "n_suites": 1040,
+  "n_pairs": 42687,
+  "seconds": 57.13108229637146
+}

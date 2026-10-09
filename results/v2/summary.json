@@ -1,0 +1,130 @@
+{
+  "scope": "Local fresh inference, final v2 cross-project suite checkpoint, all six 1024-token test shards",
+  "fresh_inference": true,
+  "checkpoint": {
+    "checkpoint_kind": "suite",
+    "source_record": "10654933",
+    "sha256": "55c5e0ad1fc2f1b3fdf72b304905ccb7423b38dae3be8d8fcfed03a62ecdb312",
+    "epoch": 0,
+    "declared_max_position_embeddings": 1024,
+    "actual_position_weight_rows": 1028,
+    "legacy_position_ids_shape": [
+      1,
+      1024
+    ],
+    "ignored_legacy_buffers": [
+      "trans.embeddings.position_ids"
+    ],
+    "input_context": 1024
+  },
+  "n_suites": 1040,
+  "n_pairs": 42687,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "batch_size": 4,
+  "inference_seconds": 732.7233647000976,
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.1",
+    "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]"
+  },
+  "input_dataset_origin": "Regenerated locally from official final raw Java suites by executing unmodified author v2 preprocessing functions",
+  "input_file_sha256": {
+    "work/v2_generated_input/test_0": "fe9b6f0628359ab29e7f24154f3c2ffb8152800d437b9959c3cbbc087291052a",
+    "work/v2_generated_input/test_1": "eb5cf55c20c3032f805c5480519798acbea1a7fa6c50a91dd4863ad7da6e3d52",
+    "work/v2_generated_input/test_2": "d35a8d7c25e934612c1e07b24a8b64e9a512bafb278e514b77db73c2be8ad565",
+    "work/v2_generated_input/test_3": "ec2070a479f48cc0f6eba3da819b99af364c2b72ff2cbcf485d7ce1712ca7bb2",
+    "work/v2_generated_input/test_4": "93db3b6584e4d6546b1b3f9c8966d0a3bf4e64c4d98f88d1eacf812c472248e9",
+    "work/v2_generated_input/test_5": "aca3c4cf5fafd79f7913eab803c7f0d05890b670c478b2289d39c6017cddeb6c"
+  },
+  "raw_source_file_sha256": {
+    "artifact_v2/data/base_set_suite_outliers_cp/test/test_0": "09ae7ee4709e2b5cf670253fce3813d49e366a891c793c72af790c1583e6fadf",
+    "artifact_v2/data/base_set_suite_outliers_cp/test/test_1": "227cb3fbf4f4051ea4dd4f5b5b1db73e77baefd425c4454b965848402c069758",
+    "artifact_v2/data/base_set_suite_outliers_cp/test/test_2": "ce985b6e888555c054c4c8ba1e31635dfc71dbe35c3066c68e14e4044d0c0f46",
+    "artifact_v2/data/base_set_suite_outliers_cp/test/test_3": "ad62d75ab937ffbeac6e3c74bf75604528ad89837e9b513636301f0d4b6f52e8",
+    "artifact_v2/data/base_set_suite_outliers_cp/test/test_4": "3c914afff730a62980483501f0a37b352be907c7d8476dbb3f98cb6b51b31523",
+    "artifact_v2/data/base_set_suite_outliers_cp/test/test_5": "d68efbc78cf989c06c8fe33ab9467756c68f6ca8453b90a94acf6e79caf42749"
+  },
+  "pair_level_suite_checkpoint": {
+    "positive_label": 1,
+    "n": 42687,
+    "precision": 0.5542145220946078,
+    "recall": 0.5601298509665044,
+    "f1": 0.5571564862154162,
+    "accuracy": 0.5759130414411882,
+    "confusion_matrix_labels_0_1": [
+      [
+        13196,
+        9160
+      ],
+      [
+        8943,
+        11388
+      ]
+    ]
+  },
+  "suite_level_threshold_0_25": {
+    "positive_label": 0,
+    "n": 1040,
+    "precision": 0.5185185185185185,
+    "recall": 0.652542372881356,
+    "f1": 0.5778611632270169,
+    "accuracy": 0.7836538461538461,
+    "confusion_matrix_labels_0_1": [
+      [
+        154,
+        82
+      ],
+      [
+        143,
+        661
+      ]
+    ],
+    "threshold": 0.25,
+    "true_mutation_score": 0.7730769230769231,
+    "predicted_mutation_score": 0.7144230769230769,
+    "mutation_score_absolute_error": 0.05865384615384617
+  },
+  "suite_level_threshold_0_90": {
+    "positive_label": 0,
+    "n": 1040,
+    "precision": 0.4372093023255814,
+    "recall": 0.7966101694915254,
+    "f1": 0.5645645645645646,
+    "accuracy": 0.7211538461538461,
+    "confusion_matrix_labels_0_1": [
+      [
+        188,
+        48
+      ],
+      [
+        242,
+        562
+      ]
+    ],
+    "threshold": 0.9,
+    "true_mutation_score": 0.7730769230769231,
+    "predicted_mutation_score": 0.5865384615384616,
+    "mutation_score_absolute_error": 0.18653846153846154
+  },
+  "suite_label_vs_pair_or_mismatches": 6,
+  "author_stored_prediction_comparison": {
+    "alignment": "Unique whole-shard ground-label sequence matching; complete bijection, no probabilities used for alignment",
+    "max_suite_probability_abs_difference": 8.940696716308594e-06,
+    "mean_suite_probability_abs_difference": 3.9504091528914826e-07,
+    "decision_disagreements_threshold_0_25": 0,
+    "pairs_compared": 42687,
+    "max_pair_probability_abs_difference": 2.4378299713134766e-05,
+    "mean_pair_probability_abs_difference": 4.0327428514638234e-07,
+    "pair_threshold_decision_disagreements": {
+      "0.25": 0,
+      "0.5": 0,
+      "0.9": 0
+    }
+  },
+  "limitations": [
+    "No retraining or Major mutation execution.",
+    "Pair metrics here use the suite-optimal checkpoint, not the paper matrix-optimal checkpoint.",
+    "Historical encoder formula parity checked under current PyTorch; historical training runtime not recreated."
+  ]
+}

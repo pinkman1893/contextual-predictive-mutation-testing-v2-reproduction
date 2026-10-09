@@ -1,0 +1,43 @@
+{
+  "source_record": "10654933",
+  "source_google_drive_id": "1j6cuNaGKZmvNsbB1A489K0PG6pLj8svY",
+  "source_entry": {
+    "name": "contextual-pmt-artifact/models/mutationbert_cross_project_suite.pth.tar",
+    "size": 1494487935,
+    "offset": 7077025280,
+    "type": "0"
+  },
+  "inference_checkpoint": "models/v2_mutationbert_cross_project_suite_inference.pt",
+  "sha256": "55c5e0ad1fc2f1b3fdf72b304905ccb7423b38dae3be8d8fcfed03a62ecdb312",
+  "globals": [
+    "__builtin__.set",
+    "collections.OrderedDict",
+    "models.trans.PretainedTrans.PretrainedTrans",
+    "torch.FloatStorage",
+    "torch.LongStorage",
+    "torch._C._nn.gelu",
+    "torch._utils._rebuild_parameter",
+    "torch._utils._rebuild_tensor_v2",
+    "torch.nn.modules.activation.Tanh",
+    "torch.nn.modules.container.ModuleList",
+    "torch.nn.modules.dropout.Dropout",
+    "torch.nn.modules.linear.Linear",
+    "torch.nn.modules.normalization.LayerNorm",
+    "torch.nn.modules.sparse.Embedding",
+    "transformers.activations.GELUActivation",
+    "transformers.models.roberta.configuration_roberta.RobertaConfig",
+    "transformers.models.roberta.modeling_roberta.RobertaAttention",
+    "transformers.models.roberta.modeling_roberta.RobertaEmbeddings",
+    "transformers.models.roberta.modeling_roberta.RobertaEncoder",
+    "transformers.models.roberta.modeling_roberta.RobertaIntermediate",
+    "transformers.models.roberta.modeling_roberta.RobertaLayer",
+    "transformers.models.roberta.modeling_roberta.RobertaModel",
+    "transformers.models.roberta.modeling_roberta.RobertaOutput",
+    "transformers.models.roberta.modeling_roberta.RobertaPooler",
+    "transformers.models.roberta.modeling_roberta.RobertaSelfAttention",
+    "transformers.models.roberta.modeling_roberta.RobertaSelfOutput"
+  ],
+  "model_tensor_records": 203,
+  "model_tensor_bytes": 500184072,
+  "verification": "All original model storage CRC32 values verified; optimizer omitted, model pickle retained"
+}

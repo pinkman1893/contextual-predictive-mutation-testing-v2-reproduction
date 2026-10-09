@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "mode": "full",
+  "fresh_local_inference": true,
+  "suites": 1040,
+  "pairs": 42687,
+  "input_and_raw_hashes_checked": 12,
+  "checkpoint_hash_checked": true,
+  "independent_count_metrics_checked": true,
+  "author_pair_probabilities_compared": 42687,
+  "max_author_pair_probability_abs_difference": 2.4378299713134766e-05,
+  "author_pair_decision_disagreements": {
+    "0.25": 0,
+    "0.5": 0,
+    "0.9": 0
+  }
+}

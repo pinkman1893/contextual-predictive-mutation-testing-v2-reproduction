@@ -1,0 +1,23 @@
+# External author assets and project-local environments are never published.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+work/
+models/
+tokenizer/
+author_v2/
+artifact_v2/
+artifact_v2_manifest.json
+*.pt
+*.pth
+*.pkl
+*.tar
+*.tgz
+*.zip
+*.whl
+*.part
+*.log
+.env
+.env.*

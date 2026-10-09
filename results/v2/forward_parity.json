@@ -1,0 +1,461 @@
+{
+  "n": 64,
+  "max_abs_difference": 5.632638931274414e-06,
+  "trim_max_abs_difference": 1.3485550880432129e-06,
+  "threshold_decision_disagreements": {
+    "0.25": 0,
+    "0.5": 0,
+    "0.9": 0
+  },
+  "reference": "Independent historical HF 4.23.1 encoder formula on original serialized modules; current PyTorch FP32 CUDA",
+  "records": [
+    {
+      "pair_index": 46,
+      "token_length": 1024,
+      "modern": 1.9959663404733874e-05,
+      "legacy_formula": 1.9959508790634573e-05,
+      "trimmed": 1.9959663404733874e-05
+    },
+    {
+      "pair_index": 166,
+      "token_length": 55,
+      "modern": 0.0002533567894715816,
+      "legacy_formula": 0.0002533572551328689,
+      "trimmed": 0.0002533567894715816
+    },
+    {
+      "pair_index": 187,
+      "token_length": 1024,
+      "modern": 0.00014503335114568472,
+      "legacy_formula": 0.0001450361160095781,
+      "trimmed": 0.00014503335114568472
+    },
+    {
+      "pair_index": 205,
+      "token_length": 1024,
+      "modern": 0.00033499160781502724,
+      "legacy_formula": 0.000334988406393677,
+      "trimmed": 0.00033499160781502724
+    },
+    {
+      "pair_index": 276,
+      "token_length": 1024,
+      "modern": 0.9989544153213501,
+      "legacy_formula": 0.9989544153213501,
+      "trimmed": 0.9989544153213501
+    },
+    {
+      "pair_index": 286,
+      "token_length": 1024,
+      "modern": 0.9990518689155579,
+      "legacy_formula": 0.9990518689155579,
+      "trimmed": 0.9990518689155579
+    },
+    {
+      "pair_index": 308,
+      "token_length": 1024,
+      "modern": 0.5969627499580383,
+      "legacy_formula": 0.5969661474227905,
+      "trimmed": 0.5969627499580383
+    },
+    {
+      "pair_index": 332,
+      "token_length": 1024,
+      "modern": 0.31818053126335144,
+      "legacy_formula": 0.31818366050720215,
+      "trimmed": 0.31818053126335144
+    },
+    {
+      "pair_index": 472,
+      "token_length": 1024,
+      "modern": 0.760681688785553,
+      "legacy_formula": 0.7606826424598694,
+      "trimmed": 0.760681688785553
+    },
+    {
+      "pair_index": 629,
+      "token_length": 1024,
+      "modern": 0.8442339897155762,
+      "legacy_formula": 0.8442333936691284,
+      "trimmed": 0.8442339897155762
+    },
+    {
+      "pair_index": 686,
+      "token_length": 1024,
+      "modern": 0.5449774265289307,
+      "legacy_formula": 0.5449788570404053,
+      "trimmed": 0.5449774265289307
+    },
+    {
+      "pair_index": 721,
+      "token_length": 1024,
+      "modern": 0.33674633502960205,
+      "legacy_formula": 0.3367448151111603,
+      "trimmed": 0.33674633502960205
+    },
+    {
+      "pair_index": 752,
+      "token_length": 81,
+      "modern": 3.873786408803426e-05,
+      "legacy_formula": 3.8737605791538954e-05,
+      "trimmed": 3.873786408803426e-05
+    },
+    {
+      "pair_index": 809,
+      "token_length": 1024,
+      "modern": 0.2696377635002136,
+      "legacy_formula": 0.2696433961391449,
+      "trimmed": 0.2696377635002136
+    },
+    {
+      "pair_index": 823,
+      "token_length": 1024,
+      "modern": 0.9999886751174927,
+      "legacy_formula": 0.9999886751174927,
+      "trimmed": 0.9999886751174927
+    },
+    {
+      "pair_index": 886,
+      "token_length": 1024,
+      "modern": 0.00021855084924027324,
+      "legacy_formula": 0.0002185523189837113,
+      "trimmed": 0.00021855084924027324
+    },
+    {
+      "pair_index": 890,
+      "token_length": 1024,
+      "modern": 0.44103169441223145,
+      "legacy_formula": 0.4410339891910553,
+      "trimmed": 0.44103169441223145
+    },
+    {
+      "pair_index": 948,
+      "token_length": 1024,
+      "modern": 0.7650651931762695,
+      "legacy_formula": 0.7650662064552307,
+      "trimmed": 0.7650651931762695
+    },
+    {
+      "pair_index": 1621,
+      "token_length": 70,
+      "modern": 0.9978228807449341,
+      "legacy_formula": 0.9978228807449341,
+      "trimmed": 0.9978228807449341
+    },
+    {
+      "pair_index": 5001,
+      "token_length": 753,
+      "modern": 0.6389211416244507,
+      "legacy_formula": 0.6389210820198059,
+      "trimmed": 0.6389211416244507
+    },
+    {
+      "pair_index": 5290,
+      "token_length": 306,
+      "modern": 0.00033842696575447917,
+      "legacy_formula": 0.0003384330775588751,
+      "trimmed": 0.0003384261508472264
+    },
+    {
+      "pair_index": 5876,
+      "token_length": 327,
+      "modern": 6.446595762099605e-06,
+      "legacy_formula": 6.446601673815167e-06,
+      "trimmed": 6.446608040278079e-06
+    },
+    {
+      "pair_index": 6425,
+      "token_length": 754,
+      "modern": 0.23896898329257965,
+      "legacy_formula": 0.23896999657154083,
+      "trimmed": 0.23896828293800354
+    },
+    {
+      "pair_index": 6726,
+      "token_length": 776,
+      "modern": 0.02658817544579506,
+      "legacy_formula": 0.026588276028633118,
+      "trimmed": 0.02658824436366558
+    },
+    {
+      "pair_index": 7257,
+      "token_length": 299,
+      "modern": 0.9999768733978271,
+      "legacy_formula": 0.9999768733978271,
+      "trimmed": 0.9999768733978271
+    },
+    {
+      "pair_index": 7806,
+      "token_length": 714,
+      "modern": 0.4666319191455841,
+      "legacy_formula": 0.46663305163383484,
+      "trimmed": 0.4666319787502289
+    },
+    {
+      "pair_index": 9233,
+      "token_length": 358,
+      "modern": 0.9999500513076782,
+      "legacy_formula": 0.9999500513076782,
+      "trimmed": 0.9999500513076782
+    },
+    {
+      "pair_index": 13777,
+      "token_length": 156,
+      "modern": 0.9999932050704956,
+      "legacy_formula": 0.9999932050704956,
+      "trimmed": 0.9999932050704956
+    },
+    {
+      "pair_index": 14633,
+      "token_length": 474,
+      "modern": 0.9999929666519165,
+      "legacy_formula": 0.9999929666519165,
+      "trimmed": 0.9999929666519165
+    },
+    {
+      "pair_index": 15724,
+      "token_length": 642,
+      "modern": 0.07307740300893784,
+      "legacy_formula": 0.07307548820972443,
+      "trimmed": 0.07307853549718857
+    },
+    {
+      "pair_index": 16483,
+      "token_length": 483,
+      "modern": 0.9999934434890747,
+      "legacy_formula": 0.9999934434890747,
+      "trimmed": 0.9999934434890747
+    },
+    {
+      "pair_index": 18824,
+      "token_length": 483,
+      "modern": 0.3092420697212219,
+      "legacy_formula": 0.3092426359653473,
+      "trimmed": 0.30924326181411743
+    },
+    {
+      "pair_index": 18848,
+      "token_length": 509,
+      "modern": 0.31859681010246277,
+      "legacy_formula": 0.31859853863716125,
+      "trimmed": 0.31859564781188965
+    },
+    {
+      "pair_index": 19144,
+      "token_length": 123,
+      "modern": 0.8454870581626892,
+      "legacy_formula": 0.8454926609992981,
+      "trimmed": 0.8454868793487549
+    },
+    {
+      "pair_index": 20250,
+      "token_length": 648,
+      "modern": 0.11370247602462769,
+      "legacy_formula": 0.1137022152543068,
+      "trimmed": 0.11370112746953964
+    },
+    {
+      "pair_index": 20593,
+      "token_length": 294,
+      "modern": 1.1803404959209729e-05,
+      "legacy_formula": 1.1803426787082572e-05,
+      "trimmed": 1.1803404959209729e-05
+    },
+    {
+      "pair_index": 20937,
+      "token_length": 205,
+      "modern": 2.5096089302678593e-05,
+      "legacy_formula": 2.5095896489801817e-05,
+      "trimmed": 2.5096089302678593e-05
+    },
+    {
+      "pair_index": 22308,
+      "token_length": 188,
+      "modern": 0.02322125807404518,
+      "legacy_formula": 0.023221150040626526,
+      "trimmed": 0.02322125807404518
+    },
+    {
+      "pair_index": 22784,
+      "token_length": 477,
+      "modern": 0.04772625118494034,
+      "legacy_formula": 0.047726355493068695,
+      "trimmed": 0.04772625118494034
+    },
+    {
+      "pair_index": 23372,
+      "token_length": 819,
+      "modern": 1.9645349311758764e-05,
+      "legacy_formula": 1.964538751053624e-05,
+      "trimmed": 1.9645349311758764e-05
+    },
+    {
+      "pair_index": 24664,
+      "token_length": 146,
+      "modern": 2.1181693227845244e-05,
+      "legacy_formula": 2.118157317454461e-05,
+      "trimmed": 2.1181693227845244e-05
+    },
+    {
+      "pair_index": 26032,
+      "token_length": 195,
+      "modern": 0.9999947547912598,
+      "legacy_formula": 0.9999947547912598,
+      "trimmed": 0.9999947547912598
+    },
+    {
+      "pair_index": 27565,
+      "token_length": 412,
+      "modern": 0.9999961853027344,
+      "legacy_formula": 0.9999961853027344,
+      "trimmed": 0.9999961853027344
+    },
+    {
+      "pair_index": 28907,
+      "token_length": 76,
+      "modern": 2.0129213226027787e-05,
+      "legacy_formula": 2.012906043091789e-05,
+      "trimmed": 2.0129175027250312e-05
+    },
+    {
+      "pair_index": 29468,
+      "token_length": 494,
+      "modern": 0.9999929666519165,
+      "legacy_formula": 0.9999929666519165,
+      "trimmed": 0.9999929666519165
+    },
+    {
+      "pair_index": 29979,
+      "token_length": 567,
+      "modern": 0.5778416991233826,
+      "legacy_formula": 0.5778443217277527,
+      "trimmed": 0.5778416991233826
+    },
+    {
+      "pair_index": 32131,
+      "token_length": 285,
+      "modern": 0.9593771696090698,
+      "legacy_formula": 0.9593778252601624,
+      "trimmed": 0.9593771696090698
+    },
+    {
+      "pair_index": 32171,
+      "token_length": 433,
+      "modern": 0.8228140473365784,
+      "legacy_formula": 0.8228158950805664,
+      "trimmed": 0.8228140473365784
+    },
+    {
+      "pair_index": 32932,
+      "token_length": 567,
+      "modern": 0.9995484948158264,
+      "legacy_formula": 0.9995484948158264,
+      "trimmed": 0.9995484948158264
+    },
+    {
+      "pair_index": 33542,
+      "token_length": 718,
+      "modern": 0.9999969005584717,
+      "legacy_formula": 0.9999969005584717,
+      "trimmed": 0.9999969005584717
+    },
+    {
+      "pair_index": 33658,
+      "token_length": 153,
+      "modern": 1.0063350600830745e-05,
+      "legacy_formula": 1.006332240649499e-05,
+      "trimmed": 1.0063331501442008e-05
+    },
+    {
+      "pair_index": 35262,
+      "token_length": 498,
+      "modern": 0.9998264908790588,
+      "legacy_formula": 0.9998264908790588,
+      "trimmed": 0.9998264908790588
+    },
+    {
+      "pair_index": 35901,
+      "token_length": 561,
+      "modern": 0.9999910593032837,
+      "legacy_formula": 0.9999910593032837,
+      "trimmed": 0.9999910593032837
+    },
+    {
+      "pair_index": 36474,
+      "token_length": 440,
+      "modern": 7.475478196283802e-05,
+      "legacy_formula": 7.475578604498878e-05,
+      "trimmed": 7.475478196283802e-05
+    },
+    {
+      "pair_index": 36533,
+      "token_length": 440,
+      "modern": 0.9999109506607056,
+      "legacy_formula": 0.9999109506607056,
+      "trimmed": 0.9999109506607056
+    },
+    {
+      "pair_index": 37523,
+      "token_length": 120,
+      "modern": 0.0864114835858345,
+      "legacy_formula": 0.0864131823182106,
+      "trimmed": 0.0864114835858345
+    },
+    {
+      "pair_index": 37842,
+      "token_length": 244,
+      "modern": 0.9999959468841553,
+      "legacy_formula": 0.9999959468841553,
+      "trimmed": 0.9999959468841553
+    },
+    {
+      "pair_index": 38438,
+      "token_length": 194,
+      "modern": 0.01585211418569088,
+      "legacy_formula": 0.01585218869149685,
+      "trimmed": 0.01585211418569088
+    },
+    {
+      "pair_index": 39389,
+      "token_length": 97,
+      "modern": 0.00066901691025123,
+      "legacy_formula": 0.0006690159789286554,
+      "trimmed": 0.00066901691025123
+    },
+    {
+      "pair_index": 40252,
+      "token_length": 113,
+      "modern": 0.9868887662887573,
+      "legacy_formula": 0.9868887662887573,
+      "trimmed": 0.9868887662887573
+    },
+    {
+      "pair_index": 40729,
+      "token_length": 315,
+      "modern": 0.9937959909439087,
+      "legacy_formula": 0.9937959909439087,
+      "trimmed": 0.9937959909439087
+    },
+    {
+      "pair_index": 41793,
+      "token_length": 63,
+      "modern": 0.9999943971633911,
+      "legacy_formula": 0.9999943971633911,
+      "trimmed": 0.9999943971633911
+    },
+    {
+      "pair_index": 42257,
+      "token_length": 235,
+      "modern": 1.3547419257520232e-05,
+      "legacy_formula": 1.3547340131481178e-05,
+      "trimmed": 1.3547482922149356e-05
+    },
+    {
+      "pair_index": 42414,
+      "token_length": 115,
+      "modern": 0.0665222704410553,
+      "legacy_formula": 0.06652232259511948,
+      "trimmed": 0.06652301549911499
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the original Contextual Predictive Mutation Testing paper and final v2 artifact when using this reproduction."
+title: "Contextual Predictive Mutation Testing: final v2 inference reproduction"
+type: software
+version: "1.0.0"
+authors:
+  - name: "pinkman1893"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Contextual Predictive Mutation Testing"
+  authors:
+    - family-names: Jain
+      given-names: Kush
+    - family-names: Alon
+      given-names: Uri
+    - family-names: Groce
+      given-names: Alex
+    - family-names: Le Goues
+      given-names: Claire
+  year: 2023
+  doi: 10.1145/3611643.3616289

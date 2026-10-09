@@ -1,0 +1,22 @@
+[
+  {
+    "file": "vocab.json",
+    "source": "https://huggingface.co/microsoft/codebert-base/resolve/main/vocab.json",
+    "sha256": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab"
+  },
+  {
+    "file": "merges.txt",
+    "source": "https://huggingface.co/microsoft/codebert-base/resolve/main/merges.txt",
+    "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+  },
+  {
+    "file": "tokenizer_config.json",
+    "source": "https://huggingface.co/microsoft/codebert-base/resolve/main/tokenizer_config.json",
+    "sha256": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce"
+  },
+  {
+    "file": "config.json",
+    "source": "https://huggingface.co/microsoft/codebert-base/resolve/main/config.json",
+    "sha256": "742474d6148a061fa975dadc09ce93725fa9673c55421ed316ef75532cc6b7aa"
+  }
+]
