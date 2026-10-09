@@ -74,12 +74,6 @@ GitHub Actions 同样执行这些检查。
 新提取检查点的 ZIP 元数据可能与首次本地提取不同，容器 SHA-256 会相应变化；
 模型张量和模型对象的原始校验值均固定。
 
-## 复现范围
-
-完成的是**最终 v2 的跨项目套件推理复现**，未重新训练模型、重新执行 Major/Defects4J、
-复现同项目评估、Seshat 对照或运行时间节省结论。
-同一套件最优检查点产生的测试对 F1=0.557156 为辅助指标，不能对应论文矩阵最优检查点的 0.48。
-官方套件标签与保留测试对标签 OR 有 6 处不一致，本实验保留全部官方标签。
 
 ## 来源与许可
 
@@ -90,5 +84,3 @@ GitHub Actions 同样执行这些检查。
 - [历史 Transformers 4.23.1 编码器](https://github.com/huggingface/transformers/blob/v4.23.1/src/transformers/models/roberta/modeling_roberta.py)。
 
 本仓库新增复现代码采用 [MIT 许可](LICENSE)。下载的第三方材料仍遵循各自许可；
-引用作者保存概率的 CSV 是核验依据，请同时注明上述论文与官方材料。
-本工程是独立复现整理，不是作者官方代码仓库。
